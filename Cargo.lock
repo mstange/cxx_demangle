@@ -1,0 +1,23 @@
+[root]
+name = "cpp_demangle_js"
+version = "0.1.0"
+dependencies = [
+ "cpp_demangle 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "cpp_demangle"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "fixedbitset 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "fixedbitset"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum cpp_demangle 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "464fda557e33fac024e9d2f3f80237061a38dec6e73842b4b64d3214b455a3e1"
+"checksum fixedbitset 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)" = "88c3c33fc4c00db33f5174eb98aea809c4c007db0b71351d810a7e094ea3b64d"

@@ -5,8 +5,8 @@
 
   return function(func) {
     if (func.length >= 2048) return null;
-    m.writeStringToMemory(func.substr(1), buf);
-    var ret = m['___cxa_demangle'](buf, 0, 0, status);
+    m.stringToUTF8(func.substr(1), buf, 2048);
+    var ret = m['_demangle'](buf, 0, 0, status);
     var result = null;
     if (m.HEAP32[status >> 2] === 0 && ret) {
       result = m.Pointer_stringify(ret);

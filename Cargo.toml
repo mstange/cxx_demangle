@@ -1,0 +1,13 @@
+[package]
+name = "cpp_demangle_js"
+version = "0.1.0"
+authors = ["Markus Stange <mstange@themasta.com>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+cpp_demangle = "0.2.0"

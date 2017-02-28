@@ -20,7 +20,9 @@ In a browser, including `demangle.js` in a script tag will set a `demangle` func
 
 ## Building
 
-`$ emmake ./build.sh`
+Follow [these steps](http://www.hellorust.com/emscripten/) to install rust nightly with support for the `asmjs-unknown-emscripten` target, and install and activate the `sdk-incoming-64bit` emscripten SDK. Then, source your `emsdk_env.sh` and run:
+
+`$ ./build.sh`
 
 ## Test
 
